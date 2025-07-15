@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scan Here for Payment</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(180deg, #003366 0%, #0055A5 50%, #ffffff 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    .header {
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .header p {
+      font-size: 20px;
+      margin: 5px 0 0;
+      color: #FFD700;
+      font-weight: 600;
+    }
+
+    .qr-container {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 350px;
+      width: 90%;
+    }
+
+    .qr-container img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .qr-caption {
+      background: #003366;
+      color: #ffffff;
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 30px;
+      font-weight: 600;
+      margin-top: 15px;
+    }
+
+    .info-bar {
+      margin-top: 40px;
+      width: 100%;
+      background: #003366;
+      color: #ffffff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 20px;
+    }
+
+    .info-bar div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .info-bar i {
+      font-size: 16px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+
+    .whatsapp-float i {
+      margin-top: 16px;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #128C7E;
+    }
+
+    @media(max-width: 400px) {
+      .header h1 {
+        font-size: 28px;
+      }
+      .header p {
+        font-size: 16px;
+      }
+      .qr-container img {
+        width: 200px;
+      }
+    }
+  </style>
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+</head>
+<body>
+
+  <div class="header">
+    <h1>SCAN HERE</h1>
+    <p>FOR PAYMENT</p>
+  </div>
+
+  <div class="qr-container">
+    <img src="assets/img/QRcode.png" alt="QR Code" />
+    <div class="qr-caption">SCAN ME</div>
+  </div>
+
+  <div class="info-bar">
+    <div><i class="fas fa-phone"></i>+91 7003578709</div>
+    <div><i class="fas fa-globe"></i> www.reallygreatsite.com</div>
+    <div><i class="fab fa-instagram"></i>srideeplahiri@gmail.com</div>
+  </div>
+
+  <a href="https://wa.me/917003578709" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    
+  </a>
+
+</body>
+</html>
