@@ -225,6 +225,7 @@ h6 {
   display: block;
   margin-bottom: -80px;
   margin-left: -57px;
+  margin-top: -80px;
 }
 
 
@@ -858,7 +859,7 @@ section,
   width: 100%;
   min-height: 75vh;
   position: relative;
-  padding: 13px 0;
+  padding: 1px 0;
   display: flex;
   align-items: center;
   background: url("../img/hero-bg.jpg") top left;
