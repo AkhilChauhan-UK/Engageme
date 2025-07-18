@@ -858,7 +858,7 @@ section,
   width: 100%;
   min-height: 75vh;
   position: relative;
-  padding: 60px 0;
+  padding: 13px 0;
   display: flex;
   align-items: center;
   background: url("../img/hero-bg.jpg") top left;
@@ -1745,23 +1745,26 @@ section,
 --------------------------------------------------------------*/
 .contact .info-wrap {
   background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2); /* strong bottom shadow */
   padding: 30px;
 
   max-width: 500px; /* Adjust as per your layout */
   margin: 0 auto;
-  /* margin-left: 100px; */
   align-items: center;
-  /* justify-items: center; */
   min-height: 12vh;
   flex-direction: column;
+  
+ 
 
-
+  border-radius: 8px; /* optional: for clean lifted card effect */
 }
+
+
 
 .contact .row {
   display: flex;
   justify-content: center;
+  
 }
 
 .contact .info-wrap {
@@ -2051,4 +2054,11 @@ section,
   .testimonial-item {
     margin-bottom: 20px;
   }
+}
+
+
+div.row.gy4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
