@@ -826,18 +826,38 @@ section,
   position: relative;
 }
 
+
+
+
+
+#team p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555; /* dark grey for readability */
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-top: 12px;
+}
+#team .section-title {
+  margin-bottom: -48px; /* decrease this as needed */
+}
+
+
 .section-title h2 {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
+  /* margin-bottom: -25px;
+  margin-top: 25px; */
   background: color-mix(in srgb, var(--accent-color), transparent 90%);
   color: var(--accent-color);
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
   font-family: var(--default-font);
+  
 }
 
 .section-title p {
@@ -846,6 +866,7 @@ section,
   font-size: 32px;
   font-weight: 700;
   font-family: var(--heading-font);
+  
 }
 
 .section-title p .description-title {
