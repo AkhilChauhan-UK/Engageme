@@ -829,15 +829,15 @@ section,
 
 
 
-
+/* 
 #team p {
   font-size: 16px;
   line-height: 1.8;
-  color: #555; /* dark grey for readability */
+  color: #555; dark grey for readability
   margin-bottom: 20px;
   text-align: justify;
   margin-top: 12px;
-}
+} */
 #team .section-title {
   margin-bottom: -48px; /* decrease this as needed */
 }
