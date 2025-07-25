@@ -826,7 +826,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 26px;
   position: relative;
 }
 
@@ -843,7 +843,7 @@ section,
   margin-top: 12px;
 } */
 #team .section-title {
-  margin-bottom: -48px; /* decrease this as needed */
+  margin-bottom: -18px; /* decrease this as needed */
 }
 
 
@@ -2076,6 +2076,7 @@ div.row.gy4{
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   margin-bottom: 24px;
+  margin-top: -54px;
 }
 
 .limited-offer span {
